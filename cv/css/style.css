@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+}
+*::selection{
+    color: #a30c7394;
+}
+
+img{
+    border-radius: 10%;
+    width: 30%;
+    margin: 20px;
+    transition: 1s;
+    padding-bottom: 15px;
+    transform: rotate(-30deg);
+    opacity: 0.5;
+}
+img:hover{
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+
+body{
+    position: relative;
+    background: linear-gradient(to right ,#490032,rgb(61, 7, 63),rgb(75, 24, 77));
+}
+.profile{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    border-bottom: 1px white solid;
+}
+a:hover{
+   color: rgba(234, 234, 234, 0.661); 
+}
+.profile h3{
+    color: #a30c7394;
+}
+.about{
+    left: 50%;
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+.about h3{
+    padding: 10px;
+}
+.about h5{
+    padding: 10px;
+}
+
+.skills{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+
+.skills h3{
+    padding: 10px;
+    color: #a30c7394;
+}
+.s1{
+   padding: 20px 10px; 
+}
+
+
+
+
+.projects{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+
+.projects h3{
+    padding: 10px;
+    color: #a30c7394;
+}
+
+.val{
+    animation: val-asd 1s ease-out;
+}
+
+.val1{
+    animation: val-asd1 1s ease-out;
+}
+
+.val2{
+    transition: 0.5s;
+    width: 100%;
+}
+.val3{
+    transition: 0.5s;
+    width: 80%;
+}
+
+@keyframes val-asd{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+
+}
+
+@keyframes val-asd1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+
+}
